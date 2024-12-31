@@ -50,14 +50,17 @@ The system provides three primary outputs:
 
 ### No Load
 The system displays "No Load" when there is no active load connected:
+
 ![No Load Output](Documents/No_Load_Circuit.png)
 
 ### PFC Off
 When power factor correction is off, the system displays:
+
 ![PFC Off Output](Documents/PFC_Off.png)
 
 ### PFC On
 When power factor correction is active, the system adjusts the capacitors dynamically and displays:
+
 ![PFC On Output](Documents/PFC_on.png)
 
 ## Advantages and Applications
