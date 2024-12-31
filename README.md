@@ -26,6 +26,10 @@ This project demonstrates a microcontroller-based system for automatic power fac
 - **Step 3**: The microcontroller calculates the power factor and decides the necessary compensation.
 - **Step 4**: Relays switch capacitors in or out of the circuit to achieve optimal power factor.
 
+Below is the circuit diagram used for the power factor improvement system:
+
+![Circuit Diagram](Documents/Circuit_Diagram.png)
+
 ## Benefits
 - Avoids power factor penalties imposed by utilities.
 - Improves voltage regulation.
@@ -44,6 +48,18 @@ The system provides three primary outputs:
 2. **PFC Off**: Shows when capacitors are inactive.
 3. **PFC On**: Indicates active power factor correction.
 
+### No Load
+The system displays "No Load" when there is no active load connected:
+![No Load Output](Documents/No_Load_Circuit.png)
+
+### PFC Off
+When power factor correction is off, the system displays:
+![PFC Off Output](Documents/PFC_Off.png)
+
+### PFC On
+When power factor correction is active, the system adjusts the capacitors dynamically and displays:
+![PFC On Output](Documents/PFC_on.png)
+
 ## Advantages and Applications
 - Suitable for industrial and commercial setups with inductive loads.
 - Prevents utility penalties by maintaining a high power factor.
@@ -52,9 +68,3 @@ The system provides three primary outputs:
 ## Future Improvements
 - Reduce switching losses in relays.
 - Adapt the design for three-phase power systems.
-
-## References
-- Md. Shohel Rana, Md. Naim Miah & Habibur Rahman “Automatic Power Factor Improvement by using Microcontroller” 2013
-- Md. Raju Ahmed, Md. Humayun Kabir Khan, and Ashish Kumar Karmaker “Microcontroller-based Power Factor Improvement using Switched Single Capacitor”
-- Additional online resources and videos.
-
